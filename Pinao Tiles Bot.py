@@ -20,12 +20,11 @@ while keyboard.is_pressed('q') == False:
     
     
     if pyautogui.pixel(714, 555)[0] == 17:
-        click(714, 555
-              )
+        click(714, 555)
     elif pyautogui.pixel(836, 555)[0] == 17:
         click(836, 555)
     elif pyautogui.pixel(1022, 555)[0] == 17:
         click(1022, 555)
-        
     elif pyautogui.pixel(1172, 555)[0] == 17:
         click(1172, 555)
+        
